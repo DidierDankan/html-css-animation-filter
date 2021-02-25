@@ -1,0 +1,187 @@
+/* first exercise */
+.well .ex-1-square {
+    background: #fff;
+    transition: background .5s;
+}
+
+.well .ex-1-square:hover {
+    background: red;
+}
+
+/* second exercise */
+
+.ex-2-square {
+    transition: width .7s;
+}
+
+.ex-2-square:active {
+    width: 900px;
+}
+
+/* third exercise */
+
+.ex-3-square {
+    transition: border-radius .5s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* forth exercise */
+
+.ex-4-square {
+    transition: opacity .7s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* fifth exercise */
+
+.ex-5-square {
+    transition: transform 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(1);
+}
+
+/* sixth exercise */
+
+.well .ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* seventh exercise */
+
+.well .ex-7-img {
+    transition: filter 1s;
+}
+
+.well .ex-7-img:hover {
+    filter: grayscale(1);
+}
+
+/* eighth exercise */
+
+.ex-8-img {
+    transition: filter 1s,
+                border-radius 1s;
+}
+
+.ex-8-img:hover {
+    filter: saturate(2);
+    border-radius: 20px;
+}
+
+/* ninith exercise */
+
+.ex-9-img {
+    transition: border-radius 1s,
+                filter 1s,
+                transform 1s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: sepia(2);
+    transform: scale(1.5);
+}
+
+/* tenth exercize */
+
+.ex-10-icon {
+    animation: spin 2s linear reverse infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }     
+}
+
+/* eleventh exercise */
+
+.ex-11-icon:hover {
+    animation: block-spin 2s reverse forwards;
+    animation-timing-function: ease-in
+}
+
+@keyframes block-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    20% {
+        transform: rotate(320deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+/* twelfth exercize */
+
+.ex-12-button:hover .ex-12-top-white {
+        animation: position 1s linear alternate;
+        animation-timing-function: ease-in-out;
+} 
+
+@keyframes position {
+    0% {left: 10%;}
+    10% {left: 25%;}
+    20% {left: 35%;}
+    30% {left: 45%;}
+    40% {left: 55%;}
+    50% {left: 69%;}
+    60% {left: 55%;}
+    70% {left: 45%;}
+    80% {left: 35%;}
+    90% {left: 25%;}
+    100%{left: 15%;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: position2 1s linear alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes position2 {
+    0% {right: 20%;}
+    10% {right: 35%;}
+    20% {right: 45%;}
+    30% {right: 55%;}
+    40% {right: 65%;}
+    50% {right: 69%;}
+    60% {right: 55%;}
+    70% {right: 45%;}
+    80% {right: 35%;}
+    90% {right: 25%;}
+    100%{right: 20%;}
+}
+
+/* Last exercise */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: position3 2s linear alternate infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes position3 {
+    
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: position4 1.5s linear alternate infinite;
+    animation-timing-function: ease-in-out;
+}
