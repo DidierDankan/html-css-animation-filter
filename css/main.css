@@ -186,10 +186,8 @@
         left:90%}
     80%{left: -10%;
         top: 55px;}
-    90%{left: -10%;
-        top: -10px;}
-    100%{left: 10%;
-        top: -10px;}
+    90%{top: -10px;}
+    100%{left: 10%;}
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
@@ -206,8 +204,6 @@
         right:90%}
     80%{right: -10%;
         bottom: 55px;}
-    90%{right: -10%;
-        bottom: -10px;}
-    100%{right: 20%;
-        bottom: -10px;}
+    90%{bottom: -10px;}
+    100%{right: 20%;}
 }
